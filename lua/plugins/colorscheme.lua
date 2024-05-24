@@ -1,11 +1,13 @@
 return {
   --{ "briones-gabriel/darcula-solid.nvim" },
-  { "doums/darcula" },
-  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+  -- { "doums/darcula" },
+  { "folke/tokyonight.nvim" },
+  { "rebelot/kanagawa.nvim", name = "lotus" },
+  -- { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "darcula",
+      colorscheme = "tokyonight",
     },
   },
 }
